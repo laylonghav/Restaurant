@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link href="../Image/Video/Logo_Restaurant.jpg" rel="icon">
+    <link rel="icon" href="../../Video/Image/logo_personal.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../CSS/login.css"/>
+    <link rel="stylesheet" href="../CSS/style_Validation.css"/>
+  </head>
+  <body class="bg-secondary-subtle">
+     <div class="box-form">
+          <h1>Sign Up</h1>
+          <p>Register to our website Socheata Restaurant !</p>
+          <div class="form-group">
+               <label for="">Useranme</label>
+               <input id="uname" name type="text">
+               <i class="fa-regular fa-circle-check icon"></i>
+               <i class="fa-solid fa-exclamation icon"></i>
+          </div>
+          <div class="form-group">
+               <label for="">Email</label>
+               <input id="email" name type="email">
+               <i class="fa-regular fa-circle-check icon"></i>
+               <i class="fa-solid fa-exclamation icon"></i>
+          </div>
+          <div class="form-group">
+               <label for="">Password</label>
+               <input id="password" name type="password">
+               <i class="fa-regular fa-eye eye show"></i>
+               <i class="fa-regular fa-eye-slash eye hide"></i>
+          </div>
+          <div class="form-group">
+               <label for="">Confirm Password</label>
+               <input id="confirm_pass" name type="password">
+               <i class="fa-regular fa-eye eye show"></i>
+               <i class="fa-regular fa-eye-slash eye hide"></i>
+          </div>
+          <div class="check"> 
+               <input id="check" name type="checkbox"> <span class="re-type">Re-type Password</span> 
+          </div>
+          <div class="form-button">
+               <button id="signUp">Sign Up</button>
+          </div>
+     </div>
+  </body>
+  <script src="../JS/login.js"></script>
+</html>

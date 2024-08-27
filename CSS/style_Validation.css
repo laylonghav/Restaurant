@@ -1,0 +1,26 @@
+.form-group.error input{
+     border: 1px solid red;
+}
+.form-group.success input{
+     border: 1px solid #03c710;
+}
+.icon{
+     position: absolute;
+     top: 30px;
+     right: 15px;
+     visibility: hidden;
+}  
+.form-group.error .fa-exclamation{
+     visibility: visible;
+     color: red;
+}
+.form-group.success .fa-exclamation{
+     visibility: hidden;
+}
+.form-group.success .fa-circle-check{
+     visibility: visible;
+     color: #03c710;
+}
+.form-group.error .fa-circle-check{
+     visibility: hidden;
+}

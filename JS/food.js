@@ -2,149 +2,149 @@
 const menuData = {
   breakfast: [
     {
-      name: "Pancakes",
-      description: "Delicious fluffy pancakes with syrup",
+      name: "Bacon cheese sandwich",
+      description: "Rice porridge with prawns",
       price: "$10",
-      image: "../Image/Video/menu-1.jpg",
+      image: "../Image/Video/Bacon_cheese_sandwich.jpg",
     },
     {
-      name: "Omelette",
-      description: "Egg omelette with cheese and veggies",
+      name: "បាយដូងត្រីចៀន (bai doung trei chien)",
+      description: "Rice cakes with coconut",
       price: "$8",
-      image: "../Image/Video/menu-2.jpg",
+      image: "../Image/Video/bai_doung_trei_chien.jpg",
     },
     {
-      name: "French Toast",
-      description: "Crispy French toast with honey",
+      name: "បាយខសាច់ជ្រូកបីជាន់ (bai kher sach chrouk bei chon)",
+      description: "Sweet rice cakes with coconut and sugar",
       price: "$9",
-      image: "../Image/Video/menu-3.jpg",
+      image: "../Image/Video/bai_kher_sach_chrouk_bei_chon.jpg",
     },
     {
-      name: "Fruit Salad",
-      description: "Fresh seasonal fruits",
+      name: "បាយឡុកឡាក់ (bai lok lak)",
+      description: "Fresh fruit salad with mango and coconut",
       price: "$7",
-      image: "../Image/Video/menu-4.jpg",
+      image: "../Image/Video/bai_lok_lak.jpg",
     },
     {
-      name: "Avocado Toast",
-      description: "Avocado on toasted bread",
+      name: "បាយត្រីសាបាក់ (bai trei sa bek)",
+      description: "Toasted bread with sweet coconut spread",
       price: "$11",
-      image: "../Image/Video/menu-5.jpg",
+      image: "../Image/Video/bai_trei_sa_bek.jpg",
     },
     {
-      name: "Breakfast Burrito",
-      description: "Tortilla with eggs, bacon, and cheese",
+      name: "បាយត្រីសាម៉ុន (bai trei samon)",
+      description: "Rice with traditional Khmer-style pork",
       price: "$12",
-      image: "../Image/Video/menu-6.jpg",
+      image: "../Image/Video/bai_trei_samon.jpg",
     },
     {
-      name: "Granola Yogurt Parfait",
-      description: "Layered yogurt with granola",
+      name: "Breakfast (breakfast)",
+      description: "Rice with fried garlic and eggs",
       price: "$10",
-      image: "../Image/Video/menu-7.jpg",
+      image: "../Image/Video/breakfast.jpg",
     },
     {
-      name: "Granola Yogurt Parfait",
-      description: "Layered yogurt with granola",
+      name: "ឆាគ្រឿង (cha kroueng)",
+      description: "Rice with fried garlic and eggs",
       price: "$10",
-      image: "../Image/Video/menu-8.jpg",
+      image: "../Image/Video/cha_kroueng.jpg",
     },
   ],
   lunch: [
     {
-      name: "Chicken Burger",
-      description: "Juicy chicken burger with fries",
+      name: "សម្លម្ហូបសាច់ជ្រូក (samlor mreah preu sach chrouk)",
+      description: "Rice with beef",
       price: "$15",
-      image: "../Image/Video/menu-1.jpg",
+      image: "../Image/Video/cha_mreah_preu_sach_chrouk.jpg",
     },
     {
-      name: "Caesar Salad",
-      description: "Fresh salad with Caesar dressing",
+      name: "កាហ្វេ (COFFEE)",
+      description: "Salad with prawns",
       price: "$12",
-      image: "../Image/Video/menu-2.jpg",
+      image: "../Image/Video/COFFEE.jpg",
     },
     {
-      name: "Club Sandwich",
-      description: "Sandwich with turkey, bacon, and lettuce",
+      name: "បង្អែម (Dessert)",
+      description: "Pork with herbs and spices",
       price: "$14",
-      image: "../Image/Video/menu-3.jpg",
+      image: "../Image/Video/Dessert.jpg",
     },
     {
-      name: "Grilled Cheese",
-      description: "Cheese sandwich with a crispy crust",
+      name: "សាច់ជ្រូកអាំង (Grilled Pork Ribs)",
+      description: "Fried tofu with a crispy crust",
       price: "$10",
-      image: "../Image/Video/menu-4.jpg",
+      image: "../Image/Video/Grilled_Pork_Ribs.jpg",
     },
     {
-      name: "Beef Taco",
-      description: "Tacos with seasoned beef and salsa",
+      name: "ការីបង្គាទន្លេ (kari bongka tonle)",
+      description: "Tacos with seasoned pork and vegetables",
       price: "$13",
-      image: "../Image/Video/menu-5.jpg",
+      image: "../Image/Video/kari_bongka_tonle.jpg",
     },
     {
-      name: "Spaghetti Carbonara",
-      description: "Classic pasta with creamy sauce",
+      name: "ខត្រីស្វាយខ្ចី (khat trei svay khey)",
+      description: "Spaghetti with creamy sauce",
       price: "$16",
-      image: "../Image/Video/menu-6.jpg",
+      image: "../Image/Video/khat_trei_svay_khey.jpg",
     },
     {
-      name: "Fish and Chips",
-      description: "Fried fish with crispy fries",
+      name: "ខត្រីស្វាយខ្ចី (Pineapple dessert)",
+      description: "Fish with crispy fries",
       price: "$17",
-      image: "../Image/Video/menu-7.jpg",
+      image: "../Image/Video/Pineapple_dessert.jpg",
     },
     {
-      name: "Fish and Chips",
-      description: "Fried fish with crispy fries",
+      name: "សម្លការី (samlor kari)",
+      description: "Fish with crispy fries",
       price: "$17",
-      image: "../Image/Video/menu-8.jpg",
+      image: "../Image/Video/samlor_kari.jpg",
     },
   ],
   dinner: [
     {
-      name: "Grilled Steak",
-      description: "Grilled steak with garlic butter",
+      name: "ស្តេកសាច់គោខ្មែរ (stek sach ko Khmer)",
+      description: "Grilled beef with garlic butter",
       price: "$25",
-      image: "../Image/Video/menu-1.jpg",
+      image: "../Image/Video/stek_sach_ko_Khmer.jpg",
     },
     {
-      name: "Spaghetti Bolognese",
-      description: "Classic Italian pasta with meat sauce",
+      name: "ត្រីស្រែចៀនទឹកអំពិលទុំ (trei srae chien tirk ampe tom)",
+      description: "Rice with a traditional Khmer sauce",
       price: "$18",
-      image: "../Image/Video/menu-2.jpg",
+      image: "../Image/Video/trei_srae_chien_tirk_ampe_tom.jpg",
     },
     {
-      name: "Chicken Alfredo",
-      description: "Creamy Alfredo pasta with chicken",
+      name: "ត្រីទឹកកក (Trei Tuk Kak)",
+      description: "Fish with a creamy sauce",
       price: "$20",
       image: "../Image/Video/menu-3.jpg",
     },
     {
-      name: "Salmon Fillet",
-      description: "Grilled salmon with lemon sauce",
+      name: "សាច់ត្រី ( Sach Trei)",
+      description: "Grilled fish with lemon sauce",
       price: "$22",
       image: "../Image/Video/menu-4.jpg",
     },
     {
-      name: "Vegetable Stir-fry",
-      description: "Mixed vegetables with soy sauce",
+      name: "សាច់បន្លែ (Sach Bonlae)",
+      description: "Stir-fried vegetables with soy sauce",
       price: "$15",
       image: "../Image/Video/menu-5.jpg",
     },
     {
-      name: "Roast Chicken",
-      description: "Herb-marinated chicken with vegetables",
+      name: "សាច់ជ្រូក (Sach Chrouk)",
+      description: "Herb-marinated pork with vegetables",
       price: "$21",
       image: "../Image/Video/menu-6.jpg",
     },
     {
-      name: "Beef Lasagna",
+      name: "សាច់គោ (Sach Ko )",
       description: "Layers of pasta with beef and cheese",
       price: "$23",
       image: "../Image/Video/menu-7.jpg",
     },
     {
-      name: "Beef Lasagna",
+      name: "សាច់គោអាំង (Sach Ko​​ Oang )",
       description: "Layers of pasta with beef and cheese",
       price: "$23",
       image: "../Image/Video/menu-8.jpg",
@@ -161,9 +161,9 @@ function showMenuItems(category) {
     const menuItem = `
                     <div class="col-md-6">
                         <div class="menu-item">
-                            <img src="${item.image}" alt="${item.name}" class="img-fluid rounded menu-image">
+                            <img src="${item.image}" alt="${item.name}" style="width: 100px; height: 100px; object-fit: cover;" class="img-fluid  rounded menu-image">
                             <div class="ms-3">
-                                <h5 class="mb-0">${item.name}</h5>
+                                <h5 class="mb-0 txtKhmer" style="font-size: 18px;">${item.name}</h5>
                                 <small class="text-muted">${item.description}</small>
                             </div>
                             <div class="ms-auto text-highlight">${item.price}</div>
@@ -179,9 +179,9 @@ function showMenuItems(category) {
     const menuItem = `
                     <div class="col-md-6">
                         <div class="menu-item">
-                            <img src="${item.image}" alt="${item.name}" class="img-fluid rounded menu-image">
+                            <img src="${item.image}" alt="${item.name}" style="width: 100px; height: 100px; object-fit: cover;" class="img-fluid rounded menu-image">
                             <div class="ms-3">
-                                <h5 class="mb-0">${item.name}</h5>
+                                <h5 class="mb-0 txtKhmer" style="font-size: 18px;">${item.name}</h5>
                                 <small class="text-muted">${item.description}</small>
                             </div>
                             <div class="ms-auto text-highlight">${item.price}</div>
