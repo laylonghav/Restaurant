@@ -1,76 +1,76 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
 * {
   padding: 0;
-     margin: 0;
-     box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-     width: 100%;
-     height: 100vh;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     background-color: #cde0f0;
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cde0f0;
 }
-.box-form{
-     width: 450px;
-     padding: 30px 30px;
-     border-radius: 5px;
-     background-color: #fcfcf9;
-     box-shadow: 1px 1px 2px #6c6b6b;
+.box-form {
+  width: 450px;
+  padding: 30px 30px;
+  border-radius: 5px;
+  background-color: #fcfcf9;
+  box-shadow: 1px 1px 2px #6c6b6b;
 }
-h1{
-     font-size: 30px;
-     margin-bottom: 5px;
-} 
-p{
-     font-size: 14px;
-     opacity: .5;  
+h1 {
+  font-size: 30px;
+  margin-bottom: 5px;
 }
-.form-group{
-     position: relative;
-     width: 100%;
-     margin-top: 20px;
-     margin-bottom: 30px;
+p {
+  font-size: 14px;
+  opacity: 0.5;
 }
-.form-group input{
-     margin-top: 2px;
-     width: 100%;
-     padding: 10px 5px;
-     font-size: 15px;
-     border: none;
-     outline: none;
-     border: 1px solid #333;
-     border-radius: 4px;
+.form-group {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
-.form-group label{
-     font-size: 18px;
-     opacity: .6;
+.form-group input {
+  margin-top: 2px;
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border: 1px solid #333;
+  border-radius: 4px;
 }
-.form-button{
-     width: 100%;
-     margin-top: 50px;
+.form-group label {
+  font-size: 18px;
+  opacity: 0.6;
 }
-.form-button button{
-     width: 100%;
-     padding: 10px 0;
-     font-size: 17px;
-     border: none;
-     border-radius: 4px;
-     cursor: pointer;
-     background-color: #66d3af;
-     color: #fff;
+.form-button {
+  width: 100%;
+  margin-top: 50px;
 }
-.re-type{
-     font-size: 18px;
-     opacity: .6;
+.form-button button {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 17px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ffc107;
+  color: #fff;
 }
-.eye{
-     position: absolute;
-     top: 30px;
-     right: 15px;
-     cursor: pointer;
+.re-type {
+  font-size: 18px;
+  opacity: 0.6;
 }
-.eye.hide{
-     display: none;
+.eye {
+  position: absolute;
+  top: 42px;
+  right: 15px;
+  cursor: pointer;
+}
+.eye.hide {
+  display: none;
 }

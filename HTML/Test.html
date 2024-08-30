@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      td {
+        width: 300px;
+      }
+      fieldset {
+        margin: 0 auto;
+        width: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <legend>National Polytechnic Institute of Cambodia</legend>
+
+      <form action="/submit-form" method="post">
+        <table border="0">
+          <tr>
+            <td><strong>Self Information</strong></td>
+            <td><strong>Study Information</strong></td>
+          </tr>
+          <tr>
+            <td><label for="nameKhmer">Name in Khmer:</label></td>
+            <td><label for="department">Department:</label></td>
+          </tr>
+          <tr>
+            <td><input type="text" id="nameKhmer" name="nameKhmer" /></td>
+            <td>
+              <select id="department" name="department">
+                <option value="engineering">Engineering</option>
+                <option value="it">Information Technology</option>
+                <!-- Add more options as needed -->
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="nameEnglish">Name in English:</label></td>
+            <td><label for="major">Major:</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" id="nameEnglish" name="nameEnglish" />
+            </td>
+            <td><input type="text" id="major" name="major" /></td>
+          </tr>
+          <tr>
+            <td><label for="sex">Sex:</label></td>
+            <td><label for="degree">Degree:</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" id="male" name="sex" value="Male" />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="sex" value="Female" />
+              <label for="female">Female</label>
+            </td>
+            <td>
+              <input
+                type="checkbox"
+                id="bachelor"
+                name="degree"
+                value="Bachelor"
+              />
+              <label for="bachelor">Bachelor</label>
+              <input
+                type="checkbox"
+                id="associate"
+                name="degree"
+                value="Associate"
+              />
+              <label for="associate">Associate</label>
+              <input
+                type="checkbox"
+                id="shortCourse"
+                name="degree"
+                value="ShortCourse"
+              />
+              <label for="shortCourse">Short Course</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="nationality">Nationality:</label></td>
+            <td><label for="batch">Batch:</label></td>
+          </tr>
+          <tr>
+            <td><input type="text" id="nationality" name="nationality" /></td>
+            <td>
+              <select id="batch" name="batch">
+                <option value="batch1">Batch 1</option>
+                <option value="batch2">Batch 2</option>
+                <!-- Add more options as needed -->
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="region">Region:</label></td>
+            <td><label for="year">Year:</label></td>
+          </tr>
+          <tr>
+            <td><input type="text" id="region" name="region" /></td>
+            <td>
+              <input type="radio" id="year1" name="year" value="Year 1" />
+              <label for="year1">Year 1</label>
+              <input type="radio" id="year2" name="year" value="Year 2" />
+              <label for="year2">Year 2</label>
+              <input type="radio" id="year3" name="year" value="Year 3" />
+              <label for="year3">Year 3</label>
+              <input type="radio" id="year4" name="year" value="Year 4" />
+              <label for="year4">Year 4</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="dob">Date of Birth:</label></td>
+            <td><label for="dateSign">Date of Sign:</label></td>
+          </tr>
+          <tr>
+            <td ><input type="date" id="dob" name="dob" /></td>
+            <td><input type="date" id="dob" name="dob" /></td>
+          </tr>
+          <tr>
+            <td><label for="phone">Phone number:</label></td>
+            <td><input type="checkbox" id="terms" name="terms" /> I Agree</td>
+          </tr>
+          <tr>
+            <td><input type="tel" id="phone" name="phone" /></td>
+            <td><input type="submit" value="Submit" /></td>
+          </tr>
+        </table>
+      </form>
+    </fieldset>
+  </body>
+</html>
